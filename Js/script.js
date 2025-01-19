@@ -1,4 +1,6 @@
+const pokemonId = document.querySelector('.pokemon_number');
 const pokemonName = document.querySelector('.pokemon_name');
+const pokemonImage = document.querySelector('.pokemon_image');
 
 const fetchPokemon = async (Pokemon) => {
 
@@ -12,6 +14,8 @@ const fetchPokemon = async (Pokemon) => {
 const renderPokemon = async (pokemon) => {
     const data = await fetchPokemon(pokemon);
     pokemonName.innerHTML = data.name;
+    pokemonId.innerHTML = data.id;
+    pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
 }
 
 renderPokemon('25');
