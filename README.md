@@ -1,6 +1,6 @@
 # poke-api-js
 
--Este é um projeto simples de consulta de dados de Pokémon utilizando a PokeAPI com HTML, CSS e JavaScript. O projeto permite que você pesquise informações de diferentes Pokémons e visualize seus detalhes de forma fácil e interativa.
+- Este é um projeto simples de consulta de dados de Pokémon utilizando a PokeAPI com HTML, CSS e JavaScript. O projeto permite que você pesquise informações de diferentes Pokémons e visualize seus detalhes de forma fácil e interativa.
 
 ## Demonstração
 
