@@ -27,6 +27,7 @@ const renderPokemon = async (pokemon) => {
         pokemonId.innerHTML = data.id;
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         input.value = '';
+        searchPokemon = data.id;
     } else {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Não encontrado!'
