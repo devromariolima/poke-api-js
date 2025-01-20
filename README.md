@@ -24,3 +24,8 @@
 - CSS3: Estilização da interface.
 - JavaScript: Consumo da API e manipulação do DOM.
 - PokeAPI: API usada para obter os dados dos Pokémons.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/XXpNogQ.png" alt="GIF" width="300" height="300">
+</p>
