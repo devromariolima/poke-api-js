@@ -4,7 +4,7 @@
 
 ## Demonstração
 
-- Você pode ver o projeto em funcionamento aqui (adicione o link da demo, se disponível).
+- Você pode ver o projeto em funcionamento aqui ([link](https://poke-api-js-navy.vercel.app/)).
 
 ## Funcionalidades
 
