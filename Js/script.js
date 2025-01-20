@@ -40,11 +40,13 @@ form.addEventListener('submit', (event) => {
 });
 
 btnPrev.addEventListener('click', (event) => {
-    alert('prev clicked')
+    searchPokemon -= 1;
+    renderPokemon(searchPokemon);
 });
 
 btnNext.addEventListener('click', (event) => {
-    alert('Next clicked')
+    searchPokemon += 1;
+    renderPokemon(searchPokemon);
 });
 
 renderPokemon(searchPokemon);
